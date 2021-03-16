@@ -67,6 +67,6 @@ module.exports = function toReadable (number) {
         return numbers[tmp[0]] + ` hundred ` + tens[tmp[1]] + ` ` + numbers[tmp[2]]
       }
     }
-    return tmp
+    return `number to big for this exercise`
   }
 }
